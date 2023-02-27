@@ -1,0 +1,16 @@
+//responsive media query
+//ver.1 breakpoint by device
+$mobile: 375px;
+$tablet: 768px;
+$pc: 1280px;
+$max: 1440px;
+
+//ver.2 breakpoint by width
+$breakpoints: (
+    "small": 375px,
+    "medium": 768px,
+    "large": 992px,
+    "xlarge": 1280px,
+    "xslarge": 1400px,
+);
+// $sidebar-breakpoint: 1025px;

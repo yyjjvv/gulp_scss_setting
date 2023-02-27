@@ -1,6 +1,16 @@
+@import "variable";
+@import "mixin";
+@import "extend";
+
 body {
-  background: peru;
-  a {
-    color: blue;
-  }
+    // @include mq("mobile") {
+    //     background: lightcoral;
+    // }
+    background: lightcoral;
+    @include mq("medium") {
+        background: yellow;
+    }
+    @include mq("xlarge") {
+        background: blue;
+    }
 }
